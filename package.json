@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dwisk/PixelNode_Input/issues"
   },
-  "homepage": "https://github.com/dwisk/PixelNode_Input"
+  "homepage": "https://github.com/dwisk/PixelNode_Input",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
 }
