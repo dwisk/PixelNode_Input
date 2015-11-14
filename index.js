@@ -46,6 +46,7 @@ PixelNode_Input.prototype.init = function() {
 
 // sets input via PixelNode_Data
 PixelNode_Input.prototype.setInputData = function(data, target) {
+	var self = this;
 	if (target) {		
 		global.pixelNode.data.set(["inputs",self.options.name, target], data);
 	} else {
